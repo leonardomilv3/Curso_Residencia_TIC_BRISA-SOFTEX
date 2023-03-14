@@ -1,0 +1,3 @@
+# Avaliação do Curso Organização de Computadores
+
+&emsp;&emsp;Com o objetivo de nos tornar profissionais competentes, qualificados e capacitados na área de TI, o entendimento da Organização de Computadores faz-se necessário. O curso abrange desde o conteúdo de portas lógicas até Assembly, programação em baixo nível, permitindo um bom entendimento dos fundamentos de um computador digital contemporâneo.
