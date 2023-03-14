@@ -2,6 +2,12 @@
 
 &emsp;&emsp;Repositório destinado às anotações do programa de Residência em TIC da BRISA/Softex.
 
+## 📜 Certificados
+
+&emsp;&emsp;Certificados dos cursos concluídos.
+
+1. [Organizacao De Computadores](Certificados/OrganizacaoDeComputadores.pdf)
+
 ## 🖥️ Organização de Computadores 
 
 &emsp;&emsp;Anotações do curso Organização de Computadores. 
