@@ -1,0 +1,3 @@
+# Avaliação do Curso Lógica de Programação
+
+&emsp;&emsp;Com o objetivo de nos tornar profissionais competentes, qualificados e capacitados na área de TI, o entendimento de Lógica de Programação faz-se necessário. O curso abrange desde os conceitos de algoritmos e para que eles servem até as Estruras de Dados concretas e abstratas. Sendo assim, o material do curso é excelente, porém alguns exercícios estão incompletos ou com alternativas duplicadas, dificultando acertar a questão. 
