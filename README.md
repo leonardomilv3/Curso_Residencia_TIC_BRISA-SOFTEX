@@ -30,6 +30,13 @@
 1. [Filas e Árvores: Implementações e Generalizações ](LogicaProgramacao/FilasArvores.md)
 1. [Grafos, Pesquisa de Dados e Hash](LogicaProgramacao/GrafosHash.md)
 
+## 📈 Estatística 
+
+&emsp;&emsp;Anotações do curso Estatística
+
+1. [Introdução à Estatística](Estatistica/Introducao.md)
+1. [Medidas de Posição e Medidas de Dispersão.](Estatistica/MedidasDePosicaoDispersao.md)
+1. [Probabilidade e Variáveis Aleatórias.](Estatistica/ProbabilidadeVariaveisAleatorias.md)
 
 <!-- ## Questionários
 
