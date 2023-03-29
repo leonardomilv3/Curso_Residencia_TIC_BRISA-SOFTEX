@@ -38,6 +38,16 @@
 1. [Medidas de Posição e Medidas de Dispersão.](Estatistica/MedidasDePosicaoDispersao.md)
 1. [Probabilidade e Variáveis Aleatórias.](Estatistica/ProbabilidadeVariaveisAleatorias.md)
 
+
+## 🪑🎲 Banco de Dados
+
+&emsp;&emsp;Anotações do curso Banco de Dados
+
+1. [Introdução aos Bancos de Dados e sua Modelagem](BancoDeDados/IntroducaoBancosDeDadosModelagem.md)
+1. [Bancos de dados NoSQL](BancoDeDados/BancosDeDadosNoSQL.md)
+1. [Banco de dados NewSQL](BancoDeDados/BancoDeDadosNewSQL.md)
+1. [Linguagens SQL, NoSQL e NewSQL](BancoDeDados/LinguagensSQLeNoSQLeNewSQL.md)
+
 <!-- ## Questionários
 
 Afim de documentar os questionários abordados nesse conteúdo, bem como cada questão e sua respectiva resposta, foi desenvolvido uma legenda que para facilitar o entendimento dos leitores:

@@ -1,0 +1,3 @@
+# Avaliação do Curso de Banco de Dados
+
+&emsp;&emsp;Com o objetivo de nos tornar profissionais competentes, qualificados e capacitados na área de TI, o entendimento de Banco de Dados faz-se necessário. O curso abrange desde os conceitos de modelagem até os Banco de Dados mais utilizados atualmente, tais quais o SQL, o NoSQL e NewSQL. Sendo assim, o material do curso é excelente, porém alguns exercícios estão incompletos ou com alternativas duplicadas e/ou erradas, dificultando acertar a questão. 
