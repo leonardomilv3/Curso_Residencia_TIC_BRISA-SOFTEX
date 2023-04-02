@@ -8,6 +8,8 @@
 
 1. [Organizacao De Computadores](Certificados/OrganizacaoDeComputadores.pdf)
 1. [Lógica de Programação](Certificados/LogicaProgramacao.pdf)
+1. [Modelagem de Banco de Dados](Certificados/BancoDeDados.pdf)
+1. [Estatistica](Certificados/Estatistica.pdf)
 
 ## 🖥️ Organização de Computadores 
 
@@ -30,6 +32,16 @@
 1. [Filas e Árvores: Implementações e Generalizações ](LogicaProgramacao/FilasArvores.md)
 1. [Grafos, Pesquisa de Dados e Hash](LogicaProgramacao/GrafosHash.md)
 
+## 🪑🎲 Banco de Dados
+
+&emsp;&emsp;Anotações do curso Banco de Dados
+
+1. [Introdução aos Bancos de Dados e sua Modelagem](BancoDeDados/IntroducaoBancosDeDadosModelagem.md)
+1. [Bancos de dados NoSQL](BancoDeDados/BancosDeDadosNoSQL.md)
+1. [Banco de dados NewSQL](BancoDeDados/BancoDeDadosNewSQL.md)
+1. [Linguagens SQL, NoSQL e NewSQL](BancoDeDados/LinguagensSQLeNoSQLeNewSQL.md)
+
+
 ## 📈 Estatística 
 
 &emsp;&emsp;Anotações do curso Estatística
@@ -39,14 +51,13 @@
 1. [Probabilidade e Variáveis Aleatórias.](Estatistica/ProbabilidadeVariaveisAleatorias.md)
 
 
-## 🪑🎲 Banco de Dados
+## 🖥️🎲 Noções de Big Data
 
-&emsp;&emsp;Anotações do curso Banco de Dados
+&emsp;&emsp;Anotações do curso Noções de Big Data
 
-1. [Introdução aos Bancos de Dados e sua Modelagem](BancoDeDados/IntroducaoBancosDeDadosModelagem.md)
-1. [Bancos de dados NoSQL](BancoDeDados/BancosDeDadosNoSQL.md)
-1. [Banco de dados NewSQL](BancoDeDados/BancoDeDadosNewSQL.md)
-1. [Linguagens SQL, NoSQL e NewSQL](BancoDeDados/LinguagensSQLeNoSQLeNewSQL.md)
+1. [Big Data Science: uma Introdução.](BigData/Introducao.md)
+1. [Big Data Science, Estatísticas e Eplicações em R](BigData/AplicacoesEmR.md)
+1. [Big Data Science, Estatísticas e Aplicações em Python](BigData/AplicacoesEmPython.md)
 
 <!-- ## Questionários
 
