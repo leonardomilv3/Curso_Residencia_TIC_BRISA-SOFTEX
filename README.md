@@ -10,6 +10,7 @@
 1. [Lógica de Programação](Certificados/LogicaProgramacao.pdf)
 1. [Modelagem de Banco de Dados](Certificados/BancoDeDados.pdf)
 1. [Estatistica](Certificados/Estatistica.pdf)
+1. [Noções de Big Data](Certificados/BigData.pdf)
 
 ## 🖥️ Organização de Computadores 
 
