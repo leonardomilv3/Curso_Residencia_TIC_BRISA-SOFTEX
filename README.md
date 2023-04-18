@@ -11,6 +11,7 @@
 1. [Modelagem de Banco de Dados](Certificados/BancoDeDados.pdf)
 1. [Estatistica](Certificados/Estatistica.pdf)
 1. [Noções de Big Data](Certificados/BigData.pdf)
+1. [Noções de de Inteligência Artificial](Certificados/IA.pdf)
 
 ## 🖥️ Organização de Computadores 
 
@@ -60,7 +61,27 @@
 1. [Big Data Science, Estatísticas e Eplicações em R](BigData/AplicacoesEmR.md)
 1. [Big Data Science, Estatísticas e Aplicações em Python](BigData/AplicacoesEmPython.md)
 
-<!-- ## Questionários
+## 🖥️🤖 Noções de Inteligência Artificial
+
+&emsp;&emsp;Anotações do curso Noções de Inteligência Artificial
+
+1. [Introdução e Aplicações da Inteligência Artificial](InteligenciaArtificial/IntroducaoEAplicacoesDaInteligenciaArtificial.md)
+1. [Estratégias de Busca](InteligenciaArtificial/EstrategiasDeBusca.md)
+1. [Aprendizagem](InteligenciaArtificial/Aprendizagem.md)
+1. [Lógica Nebulosa](InteligenciaArtificial/LogicaNebulosa.md)
+1. [Introdução aos Sistemas Inteligentes e Aprendizado de Máquina](InteligenciaArtificial/SistemasInteligentesEAprendizadoDeMaquina.md)
+1. [Redução de Dimensionalidade](InteligenciaArtificial/ReducaoDeDimensionalidade.md)
+1. [Deep Learning](InteligenciaArtificial/DeepLearning.md)
+1. [Aprendizagem Bayesiana, Árvores de Decisão e Algoritmos Evolucionários](InteligenciaArtificial/AprendizagemBayesianaArvoresDeDecisaoEAlgoritmosEvolucionarios.md)
+
+
+<!-- 
+
+https://github.com/danielsaad/oficina-matplotlib
+
+https://www.canva.com/design/DAFYf0fbhQY/bcQMkFGiHKyL2Hd67D52rg/edit?utm_content=DAFYf0fbhQY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+## Questionários
 
 Afim de documentar os questionários abordados nesse conteúdo, bem como cada questão e sua respectiva resposta, foi desenvolvido uma legenda que para facilitar o entendimento dos leitores:
 
