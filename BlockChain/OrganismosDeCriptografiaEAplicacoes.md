@@ -1,0 +1,99 @@
+# Organismos de Criptografia e Aplicações
+
+## Tópicos Abordados
+
+- Gerência e Distribuição de Chaves: Criptoanálise
+- A Cifragem
+- Construção de Chaves
+- Interceptações da Informação: Força Bruta e MITM (Main in the Middle)
+- Criptografia de Chaves
+- Simétrica
+- Algoritmos Simétricos
+- Assimétrica
+- Algoritmos Assimétricos
+- Híbrida
+- Algoritmos Híbridos
+- Da atribuição e Gerência de Chaves: Gestão de Chaves
+- Certificação Digital e Infraestruturas de Chaves Públicas: Gerência de Certificados Digitais
+- Hierarquia de Entidades e Entidades Certificadoras
+- Funções Hash: Estrutura
+- Funções Hash: Algoritmos e Colisões
+- Infraestrutura de Chaves: Assinatura Digital
+- Infraestrutura de Chaves: Algoritmos de Assinatura Digital
+
+## Questionários
+
+Afim de documentar os questionários abordados nesse conteúdo, bem como cada questão e sua respectiva resposta, foi desenvolvido uma legenda que para facilitar o entendimento dos leitores:
+
+        Q_i - Questão com índice i (pois a ordem das questões pode ser diferente para cada participante)
+        P - Pergunta
+        R - Resposta
+
+### Questionário I
+
+- Q_i
+    - P : Leia o trecho a seguir: “O RSA foi desenvolvido no Massachussets Institute of Technology (MIT) em 1978 por Rom Rivest, Adi Shamir e Leonard Adleman, e batizado com as iniciais de seus nomes. É matematicamente baseado na Teoria dos Números, principalmente na área de Aritmética Modular [...].” Fonte: ANDRADE, R. S.; SILVA, F. S. Algoritmo de criptografia RSA: análise entre a segurança e velocidade. Revista Eventos Pedagógicos, dez. 2012, v.3, n. 3, p. 443. Disponível em: . Acesso em: 24. abr. 2020. Considerando essas informações e o conteúdo estudado sobre algoritmo RSA, é correto afirmar que ele:
+    - R : Letra B. se utiliza da fatoração de números primos extensos para criptografar. 
+- Q_i
+    - P : 
+    - R : Letra B. cada usuário tenha acesso a uma chave particular para uso próprio. Garantindo assim que a sua informação particular estará protegida. 
+- Q_i
+    - P : Leia o trecho a seguir: “Os Luptons são um casal britânico que decidiram vender seu apartamento. Quando a venda foi feita, o advogado enviou a eles um e-mail para solicitar o número da conta bancária para transferir o dinheiro. Os Luptons responderam. O que os Luptons não sabiam era que um grupo de cibercriminosos leram o e-mail do advogado e a resposta. Imediatamente, os criminosos enviaram um e-mail ao advogado da conta de e-mail dos Luptons, disseram para ele ignorar o número de conta bancária anterior e pediram para enviar o dinheiro para uma outra conta. Assim, foram roubados quase R$ 1,6 milhões dos Luptons [...].” Fonte: The Telegraph. 'Fraudsters hacked emails to my solicitor and stole £340,000 from my property sale. Disponível em: . Acesso em: 22 abr. 2020. Os Luptons sofreram um ataque conhecido como Man in the middle, que se baseia no atacante se infiltrar no transporte da informação. Considerando essas informações e o conteúdo estudado sobre ataques à informação, pode-se afirmar que esse ataque poderia ser evitado:
+    - R : Letra A.  aplicando criptografia de ponta-a-ponta. 
+- Q_i
+    - P : Leia o trecho a seguir: “Este produto, intangível pois eletrônico, deve ser compreendido como um software personalíssimo. Tal assim ocorre pois não se trata de um produto igual para todos os adquirentes (ou não se trata de um software de prateleira): no procedimento de sua emissão são verificadas as características pessoais de cada adquirente, como, ao menos, seu nome completo e data de nascimento.” Fonte: PARECER n. 00378/2019/PROFE/PFE-ITI/PGF/AGU, p. 25. Disponível em: . Acesso em: 15 maio. 2020. Considerando essas informações e o processo de averiguação de personas no mundo digital, é correto afirmar que o produto e/ou técnica que tem como método de operação a gravação de informações pessoais para assegurar o responsável pela informação é o(a):
+    - R : Letra B. certificado digital, que assinala informações pessoais do autor para autenticar a mensagem.
+- Q_i
+    - P : Diversas são as etapas e algoritmos que envolvem a segurança durante o desenvolvimento de uma chave para criptografar informações. Um dos principais algoritmos é o GNA, Gerador de Números Aleatórios, que trabalha atribuindo valores aleatórios do dia a dia para a encriptação da chave, como, por exemplo alterações de corrente elétrica. Considerando essas informações e o conteúdo estudado sobre construção e segurança de chaves, analise as afirmativas a seguir que apresentam possíveis técnicas, práticas ou funcionalidades que também influenciam na segurança da chave: I. Definição do tamanho da chave, pois é através do tamanho que é possível mensurar o número de tentativas necessárias para decifrar a chave. II. Escolha do algoritmo que será utilizado para geração da chave, pois é vital para a adequação com o sistema de criptografia escolhido. III. Escolha da linguagem no qual a chave será construída. IV. Definição da quantidade de uso da mesma chave. V. Escolha da rede onde a chave será utilizada. Está correto apenas o que se afirma em:
+    - R : Letra D. I, II e IV.
+
+- Q_i
+    - P : Leia o trecho a seguir: “Para ter utilidade criptográfica, a função de hashing deve ser: simples de se computar o hash de cada mensagem; impraticável de se determinar a entrada a partir de seu hash. e impraticável de se determinar uma outra entrada que resulte no mesmo hash de uma determinada entrada [...].” Fonte: MORENO, E.; PEREIRA, F.; CHIARAMONTE, R. B. Criptografia em software e hardware. [S.I]: Novatec, 2005, p. 37. Disponível em: . Acesso em: 11 abr. 2020. É considerada impraticável a técnica de se determinar uma entrada de hash idêntica à outra devido às probabilidades estatísticas desse feito. Entretanto, essa falha ocorre e é conhecida como colisão de hash. Considerando essas informações e o conteúdo estudado, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s) I. ( ) Colisões de hash não são exploradas porque é improvável conseguir uma colisão entre duas informações úteis. II. ( ) Colisões de hash existem porque o número de mensagens possíveis é maior do que o número de combinações hexadecimais em um hash. III. ( ) Colisões de hash acontecem eventualmente e, pela improbabilidade de ocorrerem, são pouco relevantes dentro da criptografia. IV. ( ) Colisões de hash ocorrem quando houve uma quebra de segurança no processo de criptografia anterior à etapa de hash. V. ( ) A validade – e consequentemente troca – do certificado digital alteram o valor do hash, aumentando o tempo útil até uma colisão. Agora, assinale a alternativa que apresenta a sequência correta:
+    - R : Letra E. V, V, F, F, V. 
+- Q_i
+    - P : Criptografia híbrida é um dos principais mecanismos de defesa da informação criados para atender um grande fluxo de dados. Com base em algoritmos de chaveamento simétricos e assimétricos, a informação é criptografada utilizando os dois conceitos, garantindo velocidade e segurança para essa mescla de sistemas. A criptografia híbrida contém diversos algoritmos e funcionalidades. Considerando essas informações e o conteúdo estudado a respeito, ordene os procedimentos a seguir de acordo com a sequência em que são necessários: 1) Ciframento simétrico. 2) Ciframento assimétrico. 3) El Gamal. 4) Informação. 5) Chave de sessão. ( ) Etapa existente na criptografia híbrida para cifrar a chave privada do usuário. ( ) Etapa existente na criptografia híbrida para cifrar a mensagem do usuário. ( ) Principal algoritmo usado em arquitetura híbrida. ( ) Item ou objeto no qual é aplicado métodos de proteção de dados. ( ) Primeira chave privada gerada no processo híbrido. Agora, assinale a seguir a alternativa que apresenta a sequência correta:
+    - R : Letra B. 4, 5, 1, 2, 3
+- Q_i 
+    - P : Leia o excerto a seguir: “Uma função resumo, também conhecida como função de hash, é uma função matemática para transformar um conjunto de dados em uma pequena sequência de dados de tamanho fixo (resumo criptográfico). Essa sequência busca identificar um arquivo ou informação unicamente. Outra característica importante referente às funções resumo, é que não deve ser possível obter a informação original a partir de um valor de hash.” Fonte: INFRAESTRUTURA DE CHAVES PÚBLICAS BRASILEIRA. Manual de Condutas Técnicas 10 – Volume II. dez. 2015, p. 37. Disponível em: . Acesso em: 13 abr. 2020. Hash é um dos organismos vitais dentro do processo de assinatura digital. Com ele, podemos atestar todo o processo usando o mínimo de espaço possível. Considerando essas informações e o conteúdo estudado sobre funções hash, pode-se afirmar que:
+    - R : Letra E. o hash funciona como um verificador da mensagem. Após criptografar um trecho da informação, gera um código imutável.
+
+- Q_i
+    - P : A criptografia é criada com base em vários princípios, que são compartilhados dentro de suas vertentes e subáreas. Por causa dessa estrutura de múltiplas funções e práticas com regras semelhantes, é possível confundir durante o processo o princípio por trás da criptografia. Um exemplo explícito é a própria infraestrutura de chaves públicas, que utiliza conceitos da criptoanálise para basear seu modo de operação. Considerando essas informações e o conteúdo estudado, pode-se afirmar que as duas principais adequações entre a etapa final do ICP, que é a assinatura digital, e a criptoanálise são:
+    - R : Letra A. a autenticação e impossibilidade de negar ser o emissor da informação.
+- Q_i
+    - P : 
+    - R : Letra ?
+- Q_i
+    - P : A Infraestrutura de Chaves Públicas é um conjunto de elementos e práticas que garantem que o organismo de certificações seja autenticado para qualquer um que seja possuidor de uma chave pública. Sendo assim, as ICPs garantem a continuidade a partir de uma hierarquia. Considerando essas informações e o conteúdo estudado sobre hierarquia de ICP e certificados digitais, ordene os procedimentos a seguir de acordo com a sequência em que são necessários durante o pedido e posterior certificação digital. ( ) Ida a uma autoridade de registro. ( ) Buscar um agente de registro. ( ) Regulação pela ICP. ( ) Informação chega à autoridade Certificadora Raiz. ( ) Emissão pela autoridade Certificadora. Agora, assinale a alternativa que apresenta a sequência correta:
+    - R : Letra A. 2, 1, 5, 4, 3.
+
+- Q_i
+    - P : Um ataque por força bruta consiste em um atacante que, interessado em furtar uma informação, tentará decifrá-la utilizando todas as possibilidades possíveis de chave. Para isso, ele necessita apenas de um computador capaz de automatizar o processo de tentativa e erro e colher a informação “quebrada” após esse processo. Considerando essas informações e o conteúdo estudado sobre ataques à segurança da informação, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. ( ) O ataque por força bruta tem como principal “vilão” o tamanho da chave, que aumenta o tempo necessário para quebrar a chave. II. ( ) O ataque por força bruta é um ataque modelado para chaves simétricas, devido à utilização de chaves distintas para cifrar e decifrar. III. ( ) O ataque por força bruta consiste no atacante se posicionar entre o remetente e o destinatário, a fim de furtar a informação. IV. ( ) O atacante não terá tempo necessário para resolver uma chave com força bruta e furtar a informação em sistemas de segurança complexos. V. ( ) O ataque por força bruta tem eficácia em algoritmos como RC4 ou RSA, devido às suas construções como algoritmos assimétricos. Agora, assinale a alternativa que apresenta a sequência correta:
+    - R : Letra A. A afirmativa III é falsa, pois a descrição é a do ataque Man in the middle. O atacante no método força bruta se posiciona em uma ponta da comunicação. A afirmativa IV é verdadeira, pois a segurança de sistemas de criptografia consiste no tempo necessário para quebrar uma chave. A afirmativa V é falsa, pois o ataque força bruta não apresenta diferenças de chaves ou metodologias criptográficas.
+- Q_i
+    - P : Por serem baseados em criptografia assimétrica, os algoritmos de assinatura digital variam sempre em cima do conceito de chave pública, herdando tanto as melhorias - como segurança na implantação - quanto os problemas - como a velocidade de criptografia. Apesar disso, algoritmos de assinatura digital são amplamente utilizados quando há necessidade de uma camada de segurança adicional na informação. Como exemplo, temos o DSA, desenvolvido pela Agência Nacional de Segurança dos EUA como um novo padrão de tecnologia que, inicialmente patenteado, hoje consta como domínio público para quem desejar utilizá-lo na segurança de sua assinatura. Considerando essas informações e conteúdo estudado sobre o DSA, principal algoritmo de assinatura digital, pode-se afirmar que ele:
+    - R : Letra C. é um algoritmo derivado do RSA, criado especificamente para assinatura digital. 
+- Q_i
+    - P : Leia o trecho a seguir: “Se alguém quiser utilizar a criptografia, é necessário empregar um dispositivo de hardware ou um programa de software. Portanto, se faz necessário adquirir o produto em algum lugar. Assim, como os usuários podem ter acesso a ele, os invasores também têm. Desse modo, possíveis invasores podem ir à mesma fonte e conseguir suas próprias cópias [...].” Fonte: MORENO, E.; PEREIRA, F.; CHIARAMONTE, R. B. Criptografia em software e hardware. [S.I]: Novatec, 2005. Disponível em: . Acesso em: 11 abr. 2020. Considerando essas informações e o conteúdo estudado sobre criptografia, pode-se afirmar que para haver uma livre distribuição de algoritmos para usuários comuns dentro da rede, é necessário que:
+    - R : Letra B. cada usuário tenha acesso a uma chave particular para uso próprio. Garantindo assim que a sua informação particular estará protegida.
+
+- Q_i
+    - P : A criptografia assimétrica envolve diversas especificações em seu desenvolvimento, o que a torna um modelo de criptografia complementar em diversas outras criptografias ou até mesmo sistemas de segurança. Por causa disso, é um dos principais métodos utilizados para se encriptar uma informação. Considerando essas informações e o conteúdo estudado sobre criptografia assimétrica, analise as afirmativas a seguir: I. Criptografia assimétrica é um método da criptografia que utiliza uma chave para cifrar e outra para decifrar a informação. II. Por utilizar uma chave para cifrar e outra para decifrar a informação, a criptografia assimétrica é mais lenta que a criptografia simétrica. III. Os algoritmos de criptografia assimétrica também são base para outros tipos de criptografia, como a assinatura digital. IV. A criptografia assimétrica oferece mais segurança e velocidade de processamento que a criptografia híbrida. V. Criptografia assimétrica é um algoritmo utilizado junto à criptografia simétrica para proteger chaves privadas. Está correto apenas o que se afirma em:
+    - R : Letra C. I, II e III.
+
+- Q_i
+    - P : Leia o trecho a seguir: “Em algoritmos simétricos, como por exemplo, o DES (Data Encription Standard), ocorre o chamado ‘problema de distribuição de chaves’. A chave tem de ser enviada para todos os usuários autorizados antes que as mensagens possam ser trocadas. Essa ação resulta num atraso de tempo e possibilita que a chave chegue a pessoas não autorizadas.” Fonte: MORENO, E.; PEREIRA, F.; CHIARAMONTE, R. B. Criptografia em software e hardware. [S.I]: Novatec, 2005, p. 37 Disponível em: Acesso em: 11 abr. 2020. A problematização acima facilita muito a possibilidade de ataques à informação. Para evitá-los, sem grandes alterações na criptografia, é necessário realizar uma boa gestão de chaves, garantindo o acesso restrito. Considerando essas informações e o conteúdo estudado, pode-se afirmar que, além desse, outro método para assegurar a segurança da chave é:
+    - R : Letra C.  realizar um estudo das principais ameaças e garantir a segurança da chave com pessoas e locais confiáveis.
+
+- Q_i
+    - P : O método de ciframento da informação, conhecido como “Cífra de César” foi uma das primeiras metodologias conhecidas para ocultar e dificultar o acesso a informação. Nesse modelo de encriptação, as letras são substituídas por outras localizadas em determinada posição fixa informada pelo remetente da mensagem. Por exemplo, se quisermos encriptar a palavra “criptografia” com a posição da letra-cifra sendo +3 ou right-3 (ou seja, cada letra da palavra “criptografia” é substituída pela letra que está três posições a frente), a palavra assumiria a forma de “fulswrjudild”. Com base nessas informações e no conteúdo estudado sobre criptoanálise, pode-se afirmar que a cifra correta da mensagem “ESSA MENSAGEM ESTA ENCRIPTADA”, considerando um + 5, é:
+    - R : Letra E.  JXXF RJSXFLJR JXVF JSHWNUYFIF
+- Q_i
+    - P : Em vez de cifrar caractere por caractere, as cifras de bloco funcionam coletando grandes pedaços de caracteres e agrupando-os em tamanhos fixos: geralmente 64 ou 128 bits. Em caso de insuficiência, o algoritmo responsável pelo enquadramento deve completar com valores vazios. Considerando essas informações e o conteúdo estudado sobre as características das cifras de bloco, analise as afirmativas a seguir: I. As cifras de bloco oferecem maior segurança durante a transmissão da informação em comparação com as cifras de fluxo por serem transmitidas em conjunto. II. As cifras de bloco oferecem maior velocidade durante a transmissão da informação em comparação a cifras de fluxo por causa do tamanho de bloco reduzido. III. As cifras de bloco fornecem um tamanho padrão para cada bloco por meio da iteração, dificultando a decifragem. IV. As cifras de bloco oferecem a possibilidade de enviar o mesmo bloco para diferentes destinatários. V. O emissor que optar por cifra de bloco pode alterar qualquer bloco iterado durante a transmissão. Está correto apenas o que se afirma em:
+    - R : Letra E. I e III.
+- Q_i
+    - P : Como método mais popular, a assinatura eletrônica ganhou seguidores no mundo on-line e é amplamente utilizada por empresas e pessoas na assinatura de contratos e outros documentos. Entretanto, apesar de ser mais conhecida, a assinatura eletrônica não tem a mesma validade que a assinatura digital, que funciona dentro da hierarquia de ICP. Considerando essas informações e o conteúdo estudado sobre assinatura digital, analise as afirmativas a seguir e assinale V para a(s) verdadeira(s) e F para a(s) falsa(s). I. ( ) A assinatura eletrônica tem validade no mundo físico, sendo autenticada por lei como qualquer outra assinatura. II. ( ) A assinatura digital é utilizada em documentos sem validade no mundo físico, enquanto a eletrônica é válida em qualquer meio. III. ( ) A assinatura digital funciona em conjunto com outras dois métodos/técnicas, conhecidos como hash e certificado digital. IV. ( ) A assinatura eletrônica se popularizou por ser menos burocrática que a digital, em que é necessário a obtenção de um certificado. V. ( ) A assinatura digital tem como um dos principais benefícios a não repudiabilidade, ou seja, o remetente não pode negar a mensagem. Agora, assinale a alternativa que apresenta a sequência correta:
+    - R : Letra
+- Q_i
+    - P : Leia o trecho a seguir: “Código anexado ou logicamente associado a uma mensagem eletrônica que permite de forma única e exclusiva a comprovação da autoria de um determinado conjunto de dados (um arquivo, um e-mail ou uma transação...). A verificação da origem do dado é feita com a chave pública do remetente.” Fonte: INFRAESTRUTURA DE CHAVES PÚBLICAS BRASILEIRA. Manual de Condutas Técnicas 10 – Volume II. dez. 2015, p. 37. Disponível em: . Acesso em: 13 abr. 2020. Considerando essas informações e o conteúdo estudado sobre certificações e ICP, pode ser constatada a autoria com validade jurídica de uma mensagem por meio:
+    - R : Letra D.  da assinatura digital.
