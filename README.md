@@ -83,52 +83,72 @@
 1. [Protocolos de Rede e Criptografia](BlockChain/ProtocolosDeRedeECriptografia.md)
 1. [Criptografia em Demais Serviços de Rede](BlockChain/CriptografiaEmDemaisServicosDeRede.md)
 
+## Noções de IoT
+
+&emsp;&emsp;Anotações do curso Noções de IoT
+
+1. [Elétrica, Eletrônica e a Internet das Coisas](IoT/EletricaEletr%C3%B4nicaEInternetDasCoisas.md)
+1. [Sistemas Embarcados](IoT/SistemasEmbarcados.md)
+1. [IDEs e Programação de Sistemas Embarcados](IoT/IDEsEPrograma%C3%A7%C3%A3oDeSistemasEmbarcados.md)
+1. [Programação de Sistemas Embarcados](IoT/ProgramacaoDeSistemasEmbarcados.md)
+
+
+## Empreendorismo
+
+&emsp;&emsp;Anotações do curso Noções de Blockchain
+
+1. [Empreendedorismo, o Empreendedor e o Intraempreendedor](Empreendorismo/EmpreendedorismoEmpreendedorIntraempreendedor.md)
+1. [Planejamento e Desenvolvimento do Empreendimento](Empreendorismo/PlanejamentoEDesenvolvimentoDoEmpreendimento.md)
+1. [Plano de Negócios](Empreendorismo/PlanoDeNegocios.md)
+
+
+
 <!-- 
 
 https://github.com/danielsaad/oficina-matplotlib
 
 https://www.canva.com/design/DAFYf0fbhQY/bcQMkFGiHKyL2Hd67D52rg/edit?utm_content=DAFYf0fbhQY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-## Questionários
+    ## Questionários
 
-Afim de documentar os questionários abordados nesse conteúdo, bem como cada questão e sua respectiva resposta, foi desenvolvido uma legenda que para facilitar o entendimento dos leitores:
+    Afim de documentar os questionários abordados nesse conteúdo, bem como cada questão e sua respectiva resposta, foi desenvolvido uma legenda que para facilitar o entendimento dos leitores:
 
-        Q_i - Questão com índice i (pois a ordem das questões pode ser diferente para cada participante)
-        P - Pergunta
-        R - Resposta
+            Q_i - Questão com índice i (pois a ordem das questões pode ser diferente para cada participante)
+            P - Pergunta
+            R - Resposta
 
-### Questionário I
+    ### Questionário I
 
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
-- Q_i
-    - P : 
-    - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
+    - Q_i
+        - P : 
+        - R : Letra
 
 
 ### Questionário II
